@@ -1,0 +1,70 @@
+/* With a small enough project, anything needing to go into a css file went here. */
+
+/* Toolbar */
+.nav-links:hover {
+  color: #e40d75;
+  text-decoration: underline !important;
+  text-underline-offset: 0.25em;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-section {
+  background-image: url("assets/black-on-black-things-picjumbo-com.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Main Grid */
+.grid-image-container:hover img {
+  transform: scale(2);
+  opacity: 0;
+}
+
+.grid-image-container img {
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+/* Misc */
+.pink-hover:hover {
+  color: #e40d75;
+  cursor: pointer;
+}
+
+/* Main Page Floating Effect attempt content/footer sizes not consistant enough with current setup to set the correct margin-bottom. */
+
+/* 
+@media (min-width: 600px) and (max-width: 899px) {
+  .forward-canvas {
+    margin-bottom: 725px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .forward-canvas {
+    margin-bottom: 344px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .forward-canvas {
+    margin-bottom: 325px;
+  }
+}
+
+@media (min-width: 600px) {
+  .forward-canvas {
+    z-index: 1;
+    width: 100%;
+    position: relative;
+  }
+
+  .behind-footer {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+} */
